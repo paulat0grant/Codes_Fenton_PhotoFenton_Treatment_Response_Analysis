@@ -23,5 +23,19 @@ The workflow includes:
 - response surface analysis; and
 - multi-response Derringer desirability optimization.
 
+## Computational Workflow and Code–Data Mapping
+
+| Process                                                       | Code                          | Code developed with AI assistance | Input data                                                                                                                                         |
+| ------------------------------------------------------------- | ----------------------------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Preliminary Evaluation**                                    | `C10LogBar.py`                | Google Gemini                     | `11PrimaryWastewaterData4LogBar.xlsx`<br>`12SecondaryWastewaterData4LogBar.xlsx`                                                                   |
+| **Post-Treatment Residual Concentration Profiling**           | `C20LogTreatmentBar.py`       | Google Gemini                     | `21T_FData4LogTreatmentBar.xlsx`<br>`22T_PFData4LogTreatmentBar.xlsx`<br>`23DI_FData4LogTreatmentBar.xlsx`<br>`24DI_PFData4LogTreatmentBar.xlsx`   |
+| **Incremental Treatment Response (ITR) Analysis**             | `C30ITRA.py`                  | Anthropic Claude                  | `31T_FData4ITRA.xlsx`<br>`32T_PFData4ITRA.xlsx`<br>`33DI_FData4ITRA.xlsx`<br>`34DI_PFData4ITRA.xlsx`                                               |
+| **Incremental Response Index (IRI)**                          | `C40IRI.py`                   | Anthropic Claude                  | `41Data4IRI.xlsx`                                                                                                                                  |
+| **Random Forest Regression and Variable Importance Analysis** | `C50RandomForest.py`          | Anthropic Claude                  | `51Data4RandomForest.xlsx`                                                                                                                         |
+| **Response Surface Analysis**                                 | `C60RSM.py`                   | Anthropic Claude                  | `61Data4DosePerformanceRSM.xlsx`<br>`62Data4MatrixEvolutionRSM.xlsx`<br>`63Data4OpticalInterferenceRSM.xlsx`<br>`64Data4TreatmentDynamicsRSM.xlsx` |
+| **Multi-response Derringer Desirability Optimization**        | `C70DerringerDesirability.py` | Anthropic Claude                  | `71Data4DerringerDesirability.xlsx`                                                                                                                |
+
+> **AI-assisted code development:** Portions of the Python scripts were initially developed with assistance from Google Gemini and Anthropic Claude. The scripts were subsequently reviewed, modified, tested, and finalized by the authors. The authors take full responsibility for the final code, analytical procedures, results, and interpretations.
+
 The scripts were used to generate the analyses and results reported
 in the associated manuscript.
