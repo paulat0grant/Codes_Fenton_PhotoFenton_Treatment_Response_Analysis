@@ -35,15 +35,22 @@ The workflow includes:
 | **Response Surface Analysis**                                 | `C60RSM.py`                   | Anthropic Claude                  | `61Data4DosePerformanceRSM.xlsx`<br>`62Data4MatrixEvolutionRSM.xlsx`<br>`63Data4OpticalInterferenceRSM.xlsx`<br>`64Data4TreatmentDynamicsRSM.xlsx` |
 | **Multi-response Derringer Desirability Optimization**        | `C70DerringerDesirability.py` | Anthropic Claude                  | `71Data4DerringerDesirability.xlsx`                                                                                                                |
 
-```text
-python==3.11
-numpy==1.26.4
-pandas==3.0.0
-scikit-learn==1.6.1
-scipy==1.11.4
-matplotlib==3.10.0
-plotly==5.18.0
-```
+## Software Requirements
+
+The computational analyses were performed using **Python 3.11**. The principal Python packages and versions used in the analysis are listed below.
+
+| Software/Package | Version |
+| ---------------- | ------: |
+| Python           |    3.11 |
+| NumPy            |  1.26.4 |
+| pandas           |   3.0.0 |
+| scikit-learn     |   1.6.1 |
+| SciPy            |  1.11.4 |
+| Matplotlib       |  3.10.0 |
+| Plotly           |  5.18.0 |
+
+The exact package versions are also provided in [`requirements.txt`](requirements.txt) to facilitate reproducibility of the computational analyses.
+
 
 > **AI-assisted code development:** Portions of the Python scripts were initially developed with assistance from Google Gemini and Anthropic Claude. The scripts were subsequently reviewed, modified, tested, and finalized by the authors. The authors take full responsibility for the final code, analytical procedures, results, and interpretations.
 
