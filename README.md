@@ -12,7 +12,7 @@ Analysis within a Fe²⁺:H₂O₂ Ratio Window**
 This repository contains the Python scripts used for the secondary
 computational analysis of a previously published experimental dataset
 on Fenton and Photo-Fenton treatment of textile and dye-intermediate
-wastewater.
+wastewater. Untreated data collected from “Pollution assessment of untreated textile and dye-intermediate wastewater in Ahmedabad Industrial Estate, Gujarat, India: Implications for water quality management for effective treatment strategies” (doi: https://doi.org/10.17632/bxpj4h3m7y.1). And treatment data collected from “Lab-scale investigation of Fenton and Photo-Fenton processes for removal of pollutant from textile and dye-intermediate industrial wastewater, Ahmedabad Industrial Estate, Gujarat, India” (doi: https://doi.org/10.17632/89nhkwnc9y.1).
 
 The workflow includes:
 
