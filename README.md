@@ -49,7 +49,7 @@ The computational analyses were performed using **Python 3.11**. The principal P
 | Matplotlib       |  3.10.0 |
 | Plotly           |  5.18.0 |
 
-The exact package versions are also provided in [`requirements.txt`](requirements.txt) to facilitate reproducibility of the computational analyses.
+
 
 
 > **AI-assisted code development:** Portions of the Python scripts were initially developed with assistance from Google Gemini and Anthropic Claude. The scripts were subsequently reviewed, modified, tested, and finalized by the authors. The authors take full responsibility for the final code, analytical procedures, results, and interpretations.
