@@ -107,6 +107,7 @@ A versioned release corresponding to the manuscript should be archived separatel
 If you use the code or computational workflow from this repository, please cite the associated research article.
 
 If you use the original experimental datasets, please also cite the corresponding dataset sources listed in the **Data Availability** section.
+The code and dataset has been archived on Zenodo, with doi: https://doi.org/10.5281/zenodo.22177404
 
 
 ## License
