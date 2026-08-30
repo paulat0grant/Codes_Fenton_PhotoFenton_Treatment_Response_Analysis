@@ -63,7 +63,7 @@ The computational analyses were performed using **Python 3.11**. The principal P
 | Matplotlib       |  3.10.0 |
 | Plotly           |  5.18.0 |
 
-The required Python packages are also provided in [`requirements.txt`](requirements.txt) to facilitate reproduction of the computational analyses.
+
 
 ## Reproducibility
 
