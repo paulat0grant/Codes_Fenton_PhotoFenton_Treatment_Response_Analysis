@@ -107,31 +107,7 @@ A versioned release corresponding to the manuscript should be archived separatel
 If you use the code or computational workflow from this repository, please cite the associated research article.
 
 If you use the original experimental datasets, please also cite the corresponding dataset sources listed in the **Data Availability** section.
-cff-version: 1.2.0
-message: "If you use this code or computational workflow, please cite the associated research article and the repository."
-type: software
-title: "Codes for Fenton/Photo-Fenton Treatment-Response Analysis"
-abstract: "Python scripts for secondary computational analysis, treatment-response characterization, machine-learning analysis, response surface analysis, and multi-response optimization of Fenton and Photo-Fenton treatment of textile and dye-intermediate wastewater."
-authors:
-  - family-names: "Paul"
-    given-names: "Anup"
-    orcid: "https://orcid.org/0000-0002-9860-160X"
-repository-code: "https://github.com/paulat0grant/Codes_Fenton_PhotoFenton_Treatment_Response_Analysis"
-license: "MIT"
-keywords:
-  - "Fenton treatment"
-  - "Photo-Fenton treatment"
-  - "wastewater treatment"
-  - "textile wastewater"
-  - "dye-intermediate wastewater"
-  - "advanced oxidation processes"
-  - "treatment-response analysis"
-  - "Random Forest"
-  - "response surface analysis"
-  - "Derringer desirability"
-  - "in silico analysis"
-  - "computational analysis"
-version: "1.0.0"
+
 
 ## License
 
